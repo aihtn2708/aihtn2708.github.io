@@ -1,37 +1,55 @@
-# 📊 Practical Data Analysis for Non-Tech Professionals
+<div align="center">
 
-A hands-on course designed for professionals without a technical background who want to apply data analysis in their daily work.  
-No prior coding or IT experience required — we focus on practical skills, real business cases, and easy-to-use tools.  
+# 📊 Practical Data Analysis for Non-Tech Professionals  
 
----
+🚀 *Học phân tích dữ liệu thực tiễn cho người không có nền tảng công nghệ*  
 
-## 📘 Nội dung khóa học
-- Hiểu và ứng dụng **tư duy phân tích dữ liệu** trong công việc  
-- Kỹ năng xử lý dữ liệu với **Excel / Google Sheets** và các công cụ liên quan  
-- Phân tích dữ liệu bằng **Power BI** để trực quan hóa  
-- Cách đọc, hiểu và xây dựng **báo cáo phân tích** cho quyết định kinh doanh  
-- Thực hành với **case study thực tế**
+![Banner](https://img.shields.io/badge/Data-Analysis-blue?style=flat-square&logo=databricks) 
+![Badge](https://img.shields.io/badge/Skill-Up-brightgreen?style=flat-square&logo=google-scholar)  
+![Badge](https://img.shields.io/badge/For-Non_Tech-orange?style=flat-square&logo=target)  
+
+</div>
 
 ---
 
-## 🧩 Kiến thức nền tảng
-Khóa học phù hợp với:
-- Nhân viên văn phòng, kinh doanh, marketing, nhân sự muốn dùng dữ liệu để hỗ trợ công việc  
-- Sinh viên chuẩn bị đi làm, muốn trang bị tư duy dữ liệu cơ bản  
-- Nhà quản lý mong muốn đọc hiểu báo cáo và trao đổi hiệu quả với team phân tích  
-
-**Không yêu cầu kỹ năng lập trình**. Chỉ cần quen thuộc với các công cụ văn phòng cơ bản.  
+## 🌟 Giới thiệu khóa học  
+Khóa học giúp **nhân viên văn phòng, nhà quản lý, sinh viên** nhanh chóng làm quen và áp dụng phân tích dữ liệu trong công việc **mà không cần biết lập trình**.  
+👉 Tập trung vào **tư duy phân tích, kỹ năng xử lý dữ liệu, trực quan hóa và báo cáo thực tiễn**.  
 
 ---
 
-## ℹ️ Thông tin
-- **Thời lượng:** 6 buổi (mỗi buổi 2 tiếng)  
-- **Hình thức:** Online qua Zoom  
-- **Giảng viên:** Hồ Thy Nhân Ái – Chuyên gia Phân tích & Quản trị Dữ liệu  
-- **Tài liệu:** Slide, file dữ liệu thực hành, video record (trong 30 ngày)  
-- **Hỗ trợ:** Group trao đổi Q&A trên Zalo  
+## 📘 Nội dung khóa học  
+✔️ Tư duy & quy trình phân tích dữ liệu  
+✔️ Làm sạch và xử lý dữ liệu bằng **Excel / Google Sheets**  
+✔️ Trực quan hóa dữ liệu với **Power BI / Tableau**  
+✔️ Đọc hiểu & xây dựng **báo cáo phân tích**  
+✔️ Thực hành trên **case study doanh nghiệp**  
 
 ---
 
-💡 *Hãy bắt đầu hành trình khai thác sức mạnh của dữ liệu, ngay cả khi bạn không phải là dân công nghệ!*  
+## 🧩 Kiến thức nền tảng  
+Khóa học dành cho bạn nếu:  
+- Bạn **không có background công nghệ** nhưng muốn làm việc với dữ liệu  
+- Bạn đang làm **Kinh doanh, Marketing, HR, Tài chính…** và cần dùng dữ liệu để ra quyết định  
+- Bạn là **sinh viên chuẩn bị đi làm**, muốn bổ sung kỹ năng dữ liệu cơ bản  
 
+⚡ **Không yêu cầu kỹ năng lập trình** – chỉ cần quen Excel/Google Sheets cơ bản.  
+
+---
+
+## ℹ️ Thông tin khóa học  
+- ⏱ **Thời lượng:** 6 buổi (2 giờ/buổi)  
+- 🖥 **Hình thức:** Online qua Zoom  
+- 👩‍🏫 **Giảng viên:** Hồ Thy Nhân Ái – Chuyên gia Phân tích & Quản trị Dữ liệu  
+- 📂 **Tài liệu:** Slide, file thực hành, video ghi hình (30 ngày)  
+- 💬 **Hỗ trợ:** Group Zalo Q&A sau mỗi buổi học  
+
+---
+
+<div align="center">
+
+✨ *Hãy bắt đầu hành trình khai thác sức mạnh dữ liệu – ngay cả khi bạn không phải dân công nghệ!* ✨  
+
+[📩 Đăng ký ngay] | [📖 Xem thử records khóa học])  
+
+</div>
