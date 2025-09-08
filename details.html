@@ -3,114 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chi tiết Khóa học - Practical Data Analysis</title>
+  <title>Chi tiết khóa học</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <!-- Navigation -->
+  <nav>
+    <a href="index.html">Trang chủ</a>
+    <a href="details.html">Chi tiết khóa học</a>
+  </nav>
+
   <header>
-    <nav class="navbar">
-      <a href="index.html">Trang chủ</a>
-      <a href="details.html" class="active">Chi tiết khóa học</a>
-    </nav>
+    <h1>Chi tiết khóa học</h1>
+    <p>Lộ trình từ cơ bản đến ứng dụng thực tế</p>
   </header>
 
-  <!-- Course Details -->
-  <main class="container">
-    <h1>📘 Lộ trình chi tiết 18 buổi</h1>
-
-    <!-- Part 1 -->
-    <section>
-      <h2>Phần 1: Nền tảng Tư duy & Công cụ (8 buổi)</h2>
-
-      <article>
-        <h3>Buổi 1: Tổng quan về Phân tích Dữ liệu trong Kinh doanh</h3>
-        <p><b>Lý thuyết:</b> Tại sao phân tích dữ liệu lại quan trọng? Vai trò của dữ liệu trong việc ra quyết định. Giới thiệu quy trình phân tích dữ liệu.</p>
-        <p><b>Thực hành:</b> Thảo luận nhóm về các vấn đề trong công việc có thể giải quyết bằng dữ liệu. Làm quen với Excel/Sheets.</p>
-      </article>
-
-      <article>
-        <h3>Buổi 2: Thu thập & Làm sạch Dữ liệu Cơ bản (Phần 1)</h3>
-        <p><b>Lý thuyết:</b> Các nguồn dữ liệu phổ biến (CRM, Excel, CSV, Google Forms). Các lỗi dữ liệu thường gặp.</p>
-        <p><b>Thực hành:</b> Nhập và nhập khẩu dữ liệu vào Excel/Sheets. Sử dụng Remove Duplicates, Text to Columns.</p>
-      </article>
-
-      <article>
-        <h3>Buổi 3: Làm sạch & Chuẩn hóa Dữ liệu (Phần 2)</h3>
-        <p><b>Lý thuyết:</b> Tầm quan trọng của dữ liệu sạch. Giới thiệu các hàm xử lý dữ liệu cơ bản.</p>
-        <p><b>Thực hành:</b> Hàm Text (TRIM, PROPER, UPPER, LOWER, CONCATENATE), Logic (IF), Lookup (VLOOKUP/XLOOKUP giới thiệu).</p>
-      </article>
-
-      <article>
-        <h3>Buổi 4: Phân tích Dữ liệu với Pivot Table</h3>
-        <p><b>Lý thuyết:</b> Pivot Table là gì và tại sao quan trọng.</p>
-        <p><b>Thực hành:</b> Tạo Pivot Table, sử dụng SUM, COUNT, AVERAGE, Group, Filter & Slicer.</p>
-      </article>
-
-      <article>
-        <h3>Buổi 5: Trực quan hóa Dữ liệu với Excel/Sheets</h3>
-        <p><b>Lý thuyết:</b> Nguyên tắc trực quan hóa dữ liệu. Chọn biểu đồ phù hợp cho mục đích.</p>
-        <p><b>Thực hành:</b> Vẽ biểu đồ (cột, đường, tròn, thanh), kết hợp Pivot Table và tạo Dashboard đơn giản.</p>
-      </article>
-
-      <article>
-        <h3>Buổi 6: Giới thiệu Power BI - Công cụ Dashboard mạnh mẽ</h3>
-        <p><b>Lý thuyết:</b> Power BI vs Excel. Kết nối dữ liệu từ nhiều nguồn.</p>
-        <p><b>Thực hành:</b> Làm quen với Power BI Desktop. Kết nối file Excel. Làm sạch dữ liệu bằng Query Editor.</p>
-      </article>
-
-      <article>
-        <h3>Buổi 7: Xây dựng Báo cáo Động trên Power BI (Phần 1)</h3>
-        <p><b>Lý thuyết:</b> Mô hình dữ liệu (Data Model), quan hệ giữa các bảng.</p>
-        <p><b>Thực hành:</b> Visualizations cơ bản (Bar, Line, Pie). Sử dụng Slicer cho báo cáo tương tác.</p>
-      </article>
-
-      <article>
-        <h3>Buổi 8: Xây dựng Báo cáo Động trên Power BI (Phần 2) & DAX Cơ bản</h3>
-        <p><b>Lý thuyết:</b> Giới thiệu DAX cho các phép tính đơn giản.</p>
-        <p><b>Thực hành:</b> Tạo Measures cơ bản bằng DAX: SUM, COUNT, DISTINCTCOUNT, CALCULATE. Hoàn thiện dashboard đơn giản.</p>
-      </article>
+  <main>
+    <!-- Card: Buổi 1 - Buổi 2 -->
+    <section class="card">
+      <h2>📊 Buổi 1 → Buổi 2</h2>
+      <ul>
+        <li>Giới thiệu phân tích dữ liệu thực tế</li>
+        <li>Làm quen với Excel / Google Sheets</li>
+        <li>Bài tập thực hành</li>
+      </ul>
     </section>
 
-    <!-- Part 2 -->
-    <section>
-      <h2>Phần 2: Ứng dụng Thực tế & Dự án (10 buổi)</h2>
+    <!-- Card: Buổi 3 - Buổi 8 -->
+    <section class="card">
+      <h2>📈 Buổi 3 → Buổi 8</h2>
+      <ul>
+        <li>Làm sạch dữ liệu, xử lý dữ liệu</li>
+        <li>Hàm nâng cao trong Excel</li>
+        <li>Bài tập case study</li>
+      </ul>
+    </section>
 
-      <article>
-        <h3>Buổi 9-10: Case Study 1 - Phân tích Hiệu suất Kinh doanh</h3>
-        <p><b>Nội dung:</b> Cung cấp bộ dữ liệu bán hàng "bẩn".</p>
-        <p><b>Nhiệm vụ:</b> Làm sạch dữ liệu, phân tích doanh thu & lợi nhuận bằng Pivot Table. Tạo báo cáo trực quan trên Excel.</p>
-      </article>
+    <!-- Card: Buổi 9 - Buổi 12 -->
+    <section class="card">
+      <h2>📉 Buổi 9 → Buổi 12</h2>
+      <ul>
+        <li>Trực quan hóa dữ liệu với Power BI / Tableau</li>
+        <li>Tạo Dashboard trực quan</li>
+        <li>Bài tập nhóm</li>
+      </ul>
+    </section>
 
-      <article>
-        <h3>Buổi 11-12: Case Study 2 - Phân tích Chiến dịch Marketing</h3>
-        <p><b>Nội dung:</b> Dữ liệu từ Google Forms và chi phí marketing.</p>
-        <p><b>Nhiệm vụ:</b> Tổng hợp, làm sạch và phân tích hiệu quả ROI. Tạo dashboard cơ bản trên Power BI.</p>
-      </article>
-
-      <article>
-        <h3>Buổi 13: Kỹ năng Đọc hiểu & Trình bày Báo cáo</h3>
-        <p><b>Lý thuyết & Thực hành:</b> Cách đọc dashboard, phát hiện insight, nghệ thuật kể chuyện bằng dữ liệu. Thuyết trình nhóm dựa trên Case Study.</p>
-      </article>
-
-      <article>
-        <h3>Buổi 14-17: Làm Dự án Cuối khóa (Nhóm hoặc Cá nhân)</h3>
-        <p><b>Nội dung:</b> Học viên chọn vấn đề thực tế hoặc đề bài của giảng viên.</p>
-        <p><b>Nhiệm vụ:</b> Thực hiện toàn bộ quy trình: Đặt câu hỏi → Thu thập/Làm sạch → Phân tích → Trực quan hóa → Insight. Xây dựng báo cáo hoàn chỉnh.</p>
-      </article>
-
-      <article>
-        <h3>Buổi 18: Báo cáo Dự án & Tổng kết Khóa học</h3>
-        <p><b>Nội dung:</b> Trình bày dự án cuối khóa. Giảng viên & học viên góp ý.</p>
-        <p><b>Kết quả:</b> Tổng kết kiến thức trọng tâm, chia sẻ tài nguyên tự học, trao chứng chỉ.</p>
-      </article>
+    <!-- Card: Buổi 13 - Buổi 18 -->
+    <section class="card">
+      <h2>📑 Buổi 13 → Buổi 18</h2>
+      <ul>
+        <li>Xây dựng báo cáo phân tích</li>
+        <li>Ứng dụng case study doanh nghiệp</li>
+        <li>Thuyết trình kết quả</li>
+      </ul>
     </section>
   </main>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Practical Data Analysis Course</p>
+    <p>Contact me via 
+    <div class="social-links">
+    <a href="https://zalo.me/0378824220" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-comment"></i> Zalo
+    </a>
+    <a href="https://instagram.com/kangkang2708" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-instagram"></i> Instagram
+    </a>
+    <a href="https://www.threads.net/@kangkang2708" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-threads"></i> Threads
+    </a>
+  </div>
+    for data knowledge & advice
+  </p>
   </footer>
 </body>
 </html>
