@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practical Data Analysis Course</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(90deg, #1e3c72, #2a5298, #9c27b0);
+      color: white;
+      line-height: 1.6;
+    }
+
+    /* Navigation */
+    .navbar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      padding: 20px;
+      background: rgba(0,0,0,0.2);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .navbar a {
+      text-decoration: none;
+      padding: 10px 20px;
+      border: 2px solid white;
+      border-radius: 25px;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+      font-size: 0.95rem;
+    }
+    .navbar a:hover {
+      background: white;
+      color: #2a5298;
+    }
+
+    /* Sections */
+    section {
+      max-width: 900px;
+      margin: auto;
+      background: rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 30px;
+      margin-top: 30px;
+    }
+    section h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    section ul {
+      margin: 10px 0 0 20px;
+    }
+    section li {
+      margin-bottom: 10px;
+    }
+
+    /* CTA */
+    .cta {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 15px 40px;
+      border: 3px solid white;
+      border-radius: 40px;
+      background: white;
+      color: #2a5298;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .cta a:hover {
+      background: transparent;
+      color: white;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      section h2 {
+        font-size: 1.3rem;
+      }
+      .cta a {
+        padding: 12px 25px;
+        font-size: 1rem;
+      }
+    }
+    @media (max-width: 480px) {
+      .navbar {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .navbar a {
+        width: 100%;
+        text-align: center;
+      }
+      section {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="#gioithieu">Giới thiệu</a>
+    <a href="#noidung">Nội dung</a>
+    <a href="#kienthuc">Kiến thức nền</a>
+    <a href="#thongtin">Thông tin</a>
+  </nav>
+
+  <!-- Giới thiệu -->
+  <section id="gioithieu">
+    <h2>🌟 Giới thiệu khóa học</h2>
+    <p>
+      Khóa học giúp <strong>nhân viên văn phòng, nhà quản lý, sinh viên</strong> nhanh chóng làm quen và áp dụng phân tích dữ liệu trong công việc <strong>mà không cần biết lập trình</strong>.
+    </p>
+    <p>👉 Tập trung vào <strong>tư duy phân tích, kỹ năng xử lý dữ liệu, trực quan hóa và báo cáo thực tiễn.</strong></p>
+  </section>
+
+  <!-- Nội dung -->
+  <section id="noidung">
+    <h2>📘 Nội dung khóa học</h2>
+    <ul>
+      <li>🟪 Tư duy & quy trình phân tích dữ liệu</li>
+      <li>🟪 Làm sạch và xử lý dữ liệu bằng <strong>Excel / Google Sheets</strong></li>
+      <li>🟪 Trực quan hóa dữ liệu với <strong>Power BI / Tableau</strong></li>
+      <li>🟪 Đọc hiểu & xây dựng <strong>báo cáo phân tích</strong></li>
+      <li>🟪 Thực hành trên <strong>case study doanh nghiệp</strong></li>
+    </ul>
+  </section>
+
+  <!-- Kiến thức nền -->
+  <section id="kienthuc">
+    <h2>🌿 Kiến thức nền tảng</h2>
+    <p>Khóa học dành cho bạn nếu:</p>
+    <ul>
+      <li>Bạn <strong>không có background công nghệ</strong> nhưng muốn làm việc với dữ liệu</li>
+      <li>Bạn đang làm <strong>Kinh doanh, Marketing, HR, Tài chính...</strong> và cần dùng dữ liệu để ra quyết định</li>
+      <li>Bạn là <strong>sinh viên chuẩn bị đi làm</strong>, muốn bổ sung kỹ năng dữ liệu cơ bản</li>
+    </ul>
+    <p>⚡ <strong>Không yêu cầu kỹ năng lập trình</strong> – chỉ cần quen Excel/Google Sheets cơ bản.</p>
+  </section>
+
+  <!-- Thông tin -->
+  <section id="thongtin">
+    <h2>ℹ️ Thông tin khóa học</h2>
+    <ul>
+      <li>⏱ <strong>Thời lượng:</strong> 6 buổi (2 giờ/buổi)</li>
+      <li>🖥 <strong>Hình thức:</strong> Online qua Zoom</li>
+      <li>👩‍🏫 <strong>Giảng viên:</strong> Hồ Thy Nhân Ái – Chuyên gia Phân tích & Quản trị Dữ liệu</li>
+      <li>📂 <strong>Tài liệu:</strong> Slide, file thực hành, video ghi hình (30 ngày)</li>
+      <li>💬 <strong>Hỗ trợ:</strong> Group Zalo Q&A sau mỗi buổi học</li>
+    </ul>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta">
+    <a href="#">📩 Đăng ký ngay</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    Contact me via Zalo / Instagram / Threads for DA roadmap advices
+  </footer>
+
+</body>
+</html>
