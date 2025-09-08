@@ -1,1 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: #4a00e0;
+  padding: 15px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a.active {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+article {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-left: 4px solid #4a00e0;
+  background: #f9f9f9;
+  border-radius: 5px;
+}
 
