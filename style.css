@@ -179,9 +179,13 @@ footer a:hover {
 /* Responsive */
 @media (max-width: 768px) {
   .nav {
-    padding: 10px;
-    font-size: 0.9em;
+    height: 80px; /* taller on small screens */
   }
+  body {
+    padding-top: 90px; /* adjust accordingly */
+  }
+}
+
 
   nav a {
     margin-bottom: 0.5rem;
