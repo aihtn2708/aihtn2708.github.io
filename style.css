@@ -13,7 +13,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding-top: 70px; /* little bigger than navbar */
+  padding-top: 50px; /* little bigger than navbar */
 }
 /* Divider between Phần */
 .section-divider {
@@ -152,7 +152,7 @@ footer a:hover {
   border: none;
   outline: none;
   font-size: 1em;
-  width: 100%;
+  width: 10%;
 }
 
 .contact-form input:focus,
@@ -198,4 +198,3 @@ footer a:hover {
   .card h2 {
     font-size: 1.3rem;
   }
-}
