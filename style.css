@@ -13,6 +13,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  padding-top: 70px; /* little bigger than navbar */
 }
 /* Divider between Phần */
 .section-divider {
@@ -177,8 +178,9 @@ footer a:hover {
 
 /* Responsive */
 @media (max-width: 768px) {
-  nav {
-    flex-wrap: wrap;
+  .nav {
+    padding: 10px;
+    font-size: 0.9em;
   }
 
   nav a {
