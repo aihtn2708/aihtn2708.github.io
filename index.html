@@ -3,226 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <title>Practical Data Analysis Course</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Segoe UI", sans-serif;
-      background: linear-gradient(90deg, #1e3c72, #2a5298, #9c27b0);
-      color: white;
-      line-height: 1.6;
-    }
-
-    /* Navigation */
-    .navbar {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 15px;
-      padding: 20px;
-      background: rgba(0,0,0,0.2);
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-    .navbar a {
-      text-decoration: none;
-      padding: 10px 20px;
-      border: 2px solid white;
-      border-radius: 25px;
-      color: white;
-      font-weight: bold;
-      transition: 0.3s;
-      font-size: 0.95rem;
-    }
-    .navbar a:hover {
-      background: white;
-      color: #2a5298;
-    }
-
-    /* Sections */
-    section {
-      max-width: 900px;
-      margin: auto;
-      background: rgba(255,255,255,0.1);
-      border-radius: 12px;
-      padding: 30px;
-      margin-top: 30px;
-    }
-    section h2 {
-      font-size: 1.5rem;
-      margin-bottom: 15px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    section ul {
-      margin: 10px 0 0 20px;
-    }
-    section li {
-      margin-bottom: 10px;
-    }
-
-    /* CTA */
-    .cta {
-      text-align: center;
-      margin: 40px 0;
-    }
-    .cta a {
-      display: inline-block;
-      padding: 15px 40px;
-      border: 3px solid white;
-      border-radius: 40px;
-      background: white;
-      color: #2a5298;
-      font-size: 1.2rem;
-      font-weight: bold;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-    .cta a:hover {
-      background: transparent;
-      color: white;
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-      font-size: 0.9rem;
-      opacity: 0.9;
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      section h2 {
-        font-size: 1.3rem;
-      }
-      .cta a {
-        padding: 12px 25px;
-        font-size: 1rem;
-      }
-    }
-    @media (max-width: 480px) {
-      .navbar {
-        flex-direction: column;
-        gap: 10px;
-      }
-      .navbar a {
-        width: 100%;
-        text-align: center;
-      }
-      section {
-        padding: 20px;
-      }
-    }
-  </style>
+  <title>Khóa học Phân tích Dữ liệu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Navigation -->
-  <nav class="navbar">
-    <a href="index.html">Trang chủ</a>
-    <a href="details.html" class="active">Chi tiết khóa học</a>
-    <a href="#gioithieu">Giới thiệu</a>
-    <a href="#noidung">Nội dung</a>
-    <a href="#kienthuc">Kiến thức nền</a>
-    <a href="#thongtin">Thông tin</a>
+  <nav>
+    <button class="hamburger">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Trang chủ</a>
+      <a href="details.html">Chi tiết khóa học</a>
+      <a href="#introduction">Giới thiệu</a>
+      <a href="#content">Nội dung</a>
+      <a href="#prerequisites">Kiến thức nền</a>
+      <a href="#info">Thông tin</a>
+    </div>
   </nav>
 
-  <!-- Giới thiệu -->
-  <section id="gioithieu">
-    <h2>🌟 Giới thiệu khóa học</h2>
-    <p>
-      Khóa học giúp <strong>nhân viên văn phòng, nhà quản lý, sinh viên</strong> nhanh chóng làm quen và áp dụng phân tích dữ liệu trong công việc <strong>mà không cần biết lập trình</strong>.
-    </p>
-    <p>👉 Tập trung vào <strong>tư duy phân tích, kỹ năng xử lý dữ liệu, trực quan hóa và báo cáo thực tiễn.</strong></p>
-  </section>
+  <header>
+    <h1>Khóa học Phân tích Dữ liệu</h1>
+    <p>Tăng tốc sự nghiệp của bạn với kỹ năng phân tích dữ liệu thực tiễn</p>
+  </header>
 
-  <!-- Nội dung -->
-  <section id="noidung">
-    <h2>📘 Nội dung khóa học</h2>
-    <ul>
-      <li>🟪 Tư duy & quy trình phân tích dữ liệu</li>
-      <li>🟪 Làm sạch và xử lý dữ liệu bằng <strong>Excel / Google Sheets</strong></li>
-      <li>🟪 Trực quan hóa dữ liệu với <strong>Power BI / Tableau</strong></li>
-      <li>🟪 Đọc hiểu & xây dựng <strong>báo cáo phân tích</strong></li>
-      <li>🟪 Thực hành trên <strong>case study doanh nghiệp</strong></li>
-    </ul>
-  </section>
+  <main>
+    <div class="card" id="introduction">
+      <h2>🌟 Giới thiệu khóa học</h2>
+      <p>Khóa học giúp nhân viên văn phòng, nhà quản lý, sinh viên nhanh chóng làm quen và áp dụng phân tích dữ liệu trong công việc mà không cần biết lập trình.</p>
+      <p>👉 Tập trung vào tư duy phân tích, kỹ năng xử lý dữ liệu, trực quan hóa và báo cáo thực tiễn.</p>
+    </div>
 
-  <!-- Kiến thức nền -->
-  <section id="kienthuc">
-    <h2>🌿 Kiến thức nền tảng</h2>
-    <p>Khóa học dành cho bạn nếu:</p>
-    <ul>
-      <li>Bạn <strong>không có background công nghệ</strong> nhưng muốn làm việc với dữ liệu</li>
-      <li>Bạn đang làm <strong>Kinh doanh, Marketing, HR, Tài chính...</strong> và cần dùng dữ liệu để ra quyết định</li>
-      <li>Bạn là <strong>sinh viên chuẩn bị đi làm</strong>, muốn bổ sung kỹ năng dữ liệu cơ bản</li>
-    </ul>
-    <p>⚡ <strong>Không yêu cầu kỹ năng lập trình</strong> – chỉ cần quen Excel/Google Sheets cơ bản.</p>
-  </section>
+    <div class="card" id="content">
+      <h2>📘 Nội dung khóa học</h2>
+      <ul>
+        <li>🟪 Tư duy & quy trình phân tích dữ liệu</li>
+        <li>🟪 Làm sạch và xử lý dữ liệu bằng Excel / Google Sheets</li>
+        <li>🟪 Trực quan hóa dữ liệu với Power BI / Tableau</li>
+        <li>🟪 Đọc hiểu & xây dựng báo cáo phân tích</li>
+        <li>🟪 Thực hành trên case study doanh nghiệp</li>
+      </ul>
+    </div>
 
-  <!-- Thông tin -->
-  <section id="thongtin">
-    <h2>ℹ️ Thông tin khóa học</h2>
-    <ul>
-      <li>⏱ <strong>Thời lượng:</strong> 18 buổi (1.5 giờ/buổi)</li>
-      <li>🖥 <strong>Hình thức:</strong> Online qua MS Teams</li>
-      <li>👩‍🏫 <strong>Giảng viên:</strong> Hồ Thy Nhân Ái – Chuyên gia Phân tích & Quản trị Dữ liệu</li>
-      <li>📂 <strong>Tài liệu:</strong> Slide, file thực hành, video ghi hình </li>
-      <li>💬 <strong>Hỗ trợ:</strong> Group Zalo Q&A sau mỗi buổi học</li>
-    </ul>
-  </section>
+    <div class="card" id="prerequisites">
+      <h2>🌿 Kiến thức nền tảng</h2>
+      <p>Khóa học dành cho bạn nếu:</p>
+      <ul>
+        <li>Bạn không có background công nghệ nhưng muốn làm việc với dữ liệu</li>
+        <li>Bạn đang làm Kinh doanh, Marketing, HR, Tài chính... và cần dùng dữ liệu để ra quyết định</li>
+        <li>Bạn là sinh viên chuẩn bị đi làm, muốn bổ sung kỹ năng dữ liệu cơ bản</li>
+      </ul>
+      <p>⚡ Không yêu cầu kỹ năng lập trình – chỉ cần quen Excel/Google Sheets cơ bản.</p>
+    </div>
 
-  <!-- CTA -->
-  <div class="cta">
-    <a href="#">📩 Học thử </a>
-  </div>
-<!-- Contact Section -->
-<div class="section-divider">📩 Liên hệ</div>
+    <div class="card" id="info">
+      <h2>ℹ️ Thông tin khóa học</h2>
+      <ul>
+        <li>⏱ Thời lượng: 18 buổi (1.5 giờ/buổi)</li>
+        <li>🖥 Hình thức: Online qua MS Teams</li>
+        <li>👩‍🏫 Giảng viên: Hồ Thy Nhân Ái – Chuyên gia Phân tích & Quản trị Dữ liệu</li>
+        <li>📂 Tài liệu: Slide, file thực hành, video ghi hình</li>
+        <li>💬 Hỗ trợ: Group Zalo Q&A sau mỗi buổi học</li>
+      </ul>
+    </div>
 
-<div class="card">
-  <form
-    action="https://formspree.io/f/xqadnkbj"
-    method="POST"
-    class="contact-form"
-  >
-    <label for="email">Email của bạn:</label>
-    <input type="email" id="email" name="email" required placeholder="Nhập email của bạn">
+    <div class="card">
+      <h2>📩 Đăng ký học thử</h2>
+      <form action="https://formspree.io/f/xqadnkbj" method="POST" class="contact-form">
+        <label>
+          Email của bạn:
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Số điện thoại:
+          <input type="tel" name="phone">
+        </label>
+        <label>
+          Tin nhắn:
+          <textarea name="message"></textarea>
+        </label>
+        <button type="submit" class="btn-submit">Đăng ký ngay</button>
+      </form>
+    </div>
+  </main>
 
-    <label for="phone">Phone:</label>
-    <input type="phone" id="phone" name="phone" required placeholder="Nhập sđt của bạn">
-    
-    <label for="message">Tin nhắn:</label>
-    <textarea id="message" name="message" rows="5" required placeholder="Viết tin nhắn tại đây..."></textarea>
-
-    <button type="submit" class="btn-submit">📩 Đăng ký ngay</button>
-  </form>
-</div>
-
-  <!-- Footer -->
   <footer>
-    <footer>
-  <p>Contact me via 
+    <p>Contact me via</p>
     <div class="social-links">
-    <a href="https://zalo.me/0378824220" target="_blank" rel="noopener noreferrer">
-      <i class="fa-solid fa-comment"></i> Zalo
-    </a>
-    <a href="https://instagram.com/kangkang2708" target="_blank" rel="noopener noreferrer">
-      <i class="fa-brands fa-instagram"></i> Instagram
-    </a>
-    <a href="https://www.threads.net/@kangkang2708" target="_blank" rel="noopener noreferrer">
-      <i class="fa-brands fa-threads"></i> Threads
-    </a>
-  </div>
-    for data knowledge & advice
-  </p>
-</footer>
-
+      <a href="https://zalo.me/" target="_blank">Zalo</a>
+      <a href="https://instagram.com/" target="_blank">Instagram</a>
+      <a href="https://threads.net/" target="_blank">Threads</a>
+    </div>
+    <p>for data knowledge & advice</p>
   </footer>
 
+  <script>
+    document.querySelector('.hamburger').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
 </body>
 </html>

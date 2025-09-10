@@ -5,14 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chi tiết khóa học</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Font Awesome for social icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <!-- Navigation -->
   <nav>
-    <a href="index.html">Trang chủ</a>
-    <a href="details.html">Học thử</a>
+    <button class="hamburger">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Trang chủ</a>
+      <a href="details.html">Chi tiết khóa học</a>
+      <a href="index.html#introduction">Giới thiệu</a>
+      <a href="index.html#content">Nội dung</a>
+      <a href="index.html#prerequisites">Kiến thức nền</a>
+      <a href="index.html#info">Thông tin</a>
+    </div>
   </nav>
 
   <header>
@@ -21,110 +25,69 @@
   </header>
 
   <main>
-    <!-- Main content -->
-  <main>
-    <div class="container">
-
-    <!-- Phần 1 -->
-    <div class="section-divider">📘 Phần 1: Nền tảng Tư duy & Công cụ (8 buổi)</div>
-
     <div class="card">
-      <h3>Buổi 1: Tổng quan về Phân tích Dữ liệu trong Kinh doanh</h3>
-      <p><strong>Lý thuyết:</strong> Tại sao phân tích dữ liệu lại quan trọng?... Giới thiệu quy trình phân tích dữ liệu.</p>
-      <p><strong>Thực hành:</strong> Thảo luận nhóm về các vấn đề... Làm quen với giao diện Excel/Sheets.</p>
+      <h2 class="section-divider">📘 Phần 1: Nền tảng Tư duy & Công cụ (8 buổi)</h2>
+      <ul>
+        <li><strong>Buổi 1: Tổng quan về Phân tích Dữ liệu trong Kinh doanh</strong><br>
+          Lý thuyết: Tại sao phân tích dữ liệu lại quan trọng?... Giới thiệu quy trình phân tích dữ liệu.<br>
+          Thực hành: Thảo luận nhóm về các vấn đề... Làm quen với giao diện Excel/Sheets.</li>
+        <li><strong>Buổi 2: Thu thập & Làm sạch Dữ liệu Cơ bản (Phần 1)</strong><br>
+          Lý thuyết: Các nguồn dữ liệu phổ biến... Các lỗi dữ liệu thường gặp.<br>
+          Thực hành: Nhập khẩu dữ liệu vào Excel/Sheets. Sử dụng Remove Duplicates...</li>
+        <li><strong>Buổi 3: Làm sạch & Chuẩn hóa Dữ liệu (Phần 2)</strong><br>
+          Lý thuyết: Tầm quan trọng của dữ liệu sạch. Giới thiệu các hàm xử lý dữ liệu căn bản.<br>
+          Thực hành: Hàm TRIM, PROPER, IF cơ bản, VLOOKUP/XLOOKUP...</li>
+        <li><strong>Buổi 4: Phân tích Dữ liệu với Pivot Table</strong><br>
+          Lý thuyết: Pivot Table là gì?...<br>
+          Thực hành: SUM, COUNT, AVERAGE, Group, Filter & Slicer.</li>
+        <li><strong>Buổi 5: Trực quan hóa Dữ liệu với Excel/Sheets</strong><br>
+          Lý thuyết: Nguyên tắc trực quan hóa dữ liệu...<br>
+          Thực hành: Biểu đồ: Cột, Đường, Tròn, Thanh. Dashboard đơn giản.</li>
+        <li><strong>Buổi 6: Giới thiệu Power BI - Công cụ Dashboard mạnh mẽ</strong><br>
+          Lý thuyết: Power BI vs Excel. Kết nối dữ liệu.<br>
+          Thực hành: Làm quen với Power BI Desktop, Query Editor.</li>
+        <li><strong>Buổi 7: Xây dựng Báo cáo Động trên Power BI (Phần 1)</strong><br>
+          Lý thuyết: Data Model, mối quan hệ bảng.<br>
+          Thực hành: Visualizations cơ bản, Slicer tương tác.</li>
+        <li><strong>Buổi 8: Báo cáo Động (Phần 2) & DAX Cơ bản</strong><br>
+          Lý thuyết: Giới thiệu DAX cho tính toán đơn giản.<br>
+          Thực hành: Tạo Measures: SUM, COUNT, CALCULATE...</li>
+      </ul>
     </div>
 
     <div class="card">
-      <h3>Buổi 2: Thu thập & Làm sạch Dữ liệu Cơ bản (Phần 1)</h3>
-      <p><strong>Lý thuyết:</strong> Các nguồn dữ liệu phổ biến... Các lỗi dữ liệu thường gặp.</p>
-      <p><strong>Thực hành:</strong> Nhập khẩu dữ liệu vào Excel/Sheets. Sử dụng Remove Duplicates...</p>
+      <h2 class="section-divider">🚀 Phần 2: Ứng dụng Thực tế & Dự án (10 buổi)</h2>
+      <ul>
+        <li><strong>Buổi 9-10: Case Study 1 - Phân tích Hiệu suất Kinh doanh</strong><br>
+          Nội dung: Phân tích doanh thu, lợi nhuận theo khu vực/sản phẩm/thời gian.<br>
+          Nhiệm vụ: Làm sạch dữ liệu và tạo báo cáo trực quan.</li>
+        <li><strong>Buổi 11-12: Case Study 2 - Phân tích Chiến dịch Marketing</strong><br>
+          Nội dung: Dữ liệu khảo sát và chi phí marketing.<br>
+          Nhiệm vụ: Phân tích ROI kênh marketing, tạo dashboard cơ bản.</li>
+        <li><strong>Buổi 13: Kỹ năng Đọc hiểu & Trình bày Báo cáo</strong><br>
+          Lý thuyết & Thực hành: Data Storytelling, thuyết trình theo nhóm.</li>
+        <li><strong>Buổi 14-17: Dự án Cuối khóa</strong><br>
+          Áp dụng toàn bộ quy trình từ đặt câu hỏi đến báo cáo. Xây dựng báo cáo hoàn chỉnh trên Power BI/Excel.</li>
+        <li><strong>Buổi 18: Báo cáo Dự án & Tổng kết</strong><br>
+          Trình bày dự án, nhận góp ý, tổng kết kiến thức, chia sẻ tài nguyên và trao chứng chỉ.</li>
+      </ul>
     </div>
-
-    <div class="card">
-      <h3>Buổi 3: Làm sạch & Chuẩn hóa Dữ liệu (Phần 2)</h3>
-      <p><strong>Lý thuyết:</strong> Tầm quan trọng của dữ liệu sạch. Giới thiệu các hàm xử lý dữ liệu căn bản.</p>
-      <p><strong>Thực hành:</strong> Hàm TRIM, PROPER, IF cơ bản, VLOOKUP/XLOOKUP...</p>
-    </div>
-
-    <div class="card">
-      <h3>Buổi 4: Phân tích Dữ liệu với Pivot Table</h3>
-      <p><strong>Lý thuyết:</strong> Pivot Table là gì?...</p>
-      <p><strong>Thực hành:</strong> SUM, COUNT, AVERAGE, Group, Filter & Slicer.</p>
-    </div>
-
-    <div class="card">
-      <h3>Buổi 5: Trực quan hóa Dữ liệu với Excel/Sheets</h3>
-      <p><strong>Lý thuyết:</strong> Nguyên tắc trực quan hóa dữ liệu...</p>
-      <p><strong>Thực hành:</strong> Biểu đồ: Cột, Đường, Tròn, Thanh. Dashboard đơn giản.</p>
-    </div>
-
-    <div class="card">
-      <h3>Buổi 6: Giới thiệu Power BI - Công cụ Dashboard mạnh mẽ</h3>
-      <p><strong>Lý thuyết:</strong> Power BI vs Excel. Kết nối dữ liệu.</p>
-      <p><strong>Thực hành:</strong> Làm quen với Power BI Desktop, Query Editor.</p>
-    </div>
-
-    <div class="card">
-      <h3>Buổi 7: Xây dựng Báo cáo Động trên Power BI (Phần 1)</h3>
-      <p><strong>Lý thuyết:</strong> Data Model, mối quan hệ bảng.</p>
-      <p><strong>Thực hành:</strong> Visualizations cơ bản, Slicer tương tác.</p>
-    </div>
-
-    <div class="card">
-      <h3>Buổi 8: Báo cáo Động (Phần 2) & DAX Cơ bản</h3>
-      <p><strong>Lý thuyết:</strong> Giới thiệu DAX cho tính toán đơn giản.</p>
-      <p><strong>Thực hành:</strong> Tạo Measures: SUM, COUNT, CALCULATE...</p>
-    </div>
-
-
-    <!-- Phần 2 -->
-    <div class="section-divider">🚀 Phần 2: Ứng dụng Thực tế & Dự án (10 buổi)</div>
-
-    <div class="card">
-      <h3>Buổi 9-10: Case Study 1 - Phân tích Hiệu suất Kinh doanh</h3>
-      <p><strong>Nội dung:</strong> Phân tích doanh thu, lợi nhuận theo khu vực/sản phẩm/thời gian.</p>
-      <p><strong>Nhiệm vụ:</strong> Làm sạch dữ liệu và tạo báo cáo trực quan.</p>
-    </div>
-
-    <div class="card">
-      <h3>Buổi 11-12: Case Study 2 - Phân tích Chiến dịch Marketing</h3>
-      <p><strong>Nội dung:</strong> Dữ liệu khảo sát và chi phí marketing.</p>
-      <p><strong>Nhiệm vụ:</strong> Phân tích ROI kênh marketing, tạo dashboard cơ bản.</p>
-    </div>
-
-    <div class="card">
-      <h3>Buổi 13: Kỹ năng Đọc hiểu & Trình bày Báo cáo</h3>
-      <p><strong>Lý thuyết & Thực hành:</strong> Data Storytelling, thuyết trình theo nhóm.</p>
-    </div>
-
-    <div class="card">
-      <h3>Buổi 14-17: Dự án Cuối khóa</h3>
-      <p>Áp dụng toàn bộ quy trình từ đặt câu hỏi đến báo cáo. Xây dựng báo cáo hoàn chỉnh trên Power BI/Excel.</p>
-    </div>
-
-    <div class="card">
-      <h3>Buổi 18: Báo cáo Dự án & Tổng kết</h3>
-      <p>Trình bày dự án, nhận góp ý, tổng kết kiến thức, chia sẻ tài nguyên và trao chứng chỉ.</p>
-    </div>
-  </div>
   </main>
-</main>
-  <!-- Footer -->
+
   <footer>
-    <p>Contact me via 
+    <p>Contact me via</p>
     <div class="social-links">
-    <a href="https://zalo.me/0378824220" target="_blank" rel="noopener noreferrer">
-      <i class="fa-solid fa-comment"></i> Zalo
-    </a>
-    <a href="https://instagram.com/kangkang2708" target="_blank" rel="noopener noreferrer">
-      <i class="fa-brands fa-instagram"></i> Instagram
-    </a>
-    <a href="https://www.threads.net/@kangkang2708" target="_blank" rel="noopener noreferrer">
-      <i class="fa-brands fa-threads"></i> Threads
-    </a>
-  </div>
-    for data knowledge & advice
-  </p>
+      <a href="https://zalo.me/" target="_blank">Zalo</a>
+      <a href="https://instagram.com/" target="_blank">Instagram</a>
+      <a href="https://threads.net/" target="_blank">Threads</a>
+    </div>
+    <p>for data knowledge & advice</p>
   </footer>
+
+  <script>
+    document.querySelector('.hamburger').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
